@@ -1,0 +1,256 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #F3DFDC;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    overflow:hidden ;
+}
+
+header{
+    background-color: rgb(51, 51, 121) ;
+    color: #fff ;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(171, 71, 71) 5px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16 px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header li {
+    display: inline;
+    float: left;
+    padding: 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header .highlight , header .top-bar a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: yellow ;
+    font-weight: bold;
+}
+
+header #Brand {
+    float: left;
+}
+
+#presentation {
+    min-height: 400px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#presentation h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #CD7F32;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+#presentation p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+#showcase {
+    padding: 15px;
+    color: #fff;
+    background-color: rgb(51, 51, 121);
+}
+
+#showcase h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #CD7F32;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#showcase .box {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+#Projects {
+    margin: 15px;
+}
+
+#Projects .box{
+    float: left;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+#Projects h2 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    text-align: center;
+    color: #CD7F32;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#Projects p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#Contact {
+    padding: 15px;
+    color: #fff;
+    background-color: rgb(51, 51, 121);
+} 
+
+#Contact h1 {
+    float: left;
+    color: #CD7F32;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#Contact form {
+    float: right;
+    margin-top: 20px;
+}
+#Contact input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+#Contact input[type="text"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button-1 {
+    height: 40px;
+    background-color: #fff;
+    border-color: gold;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 18px;
+    padding: 0 20px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 1s , color 1s;
+
+}
+.button-1:hover {
+    background-color: #e8491d;
+    color: gold;
+}
+
+.button-1:active {
+    opacity: 0.5;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+#myself {
+    min-height: 400px;
+    text-align: center;
+    color: #fff ;
+    background-color: rgb(51, 51, 121);
+}
+
+#myself h1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #CD7F32;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+ #greeting {
+    min-height: 400px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+ }
+
+ #greeting h1.split-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+   
+  }
+  
+  #greeting h1.split-lines span {
+    margin: 5px 0;
+  }
+
+ 
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+  .logo {
+    width: 120px;
+    
+  }
+
+  #Projects img {
+    width: 250px;
+  }
+
+  .circular-img {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid gold; 
+  }
+
+  #myself p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+#greeting p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
